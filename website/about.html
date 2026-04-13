@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>About Us | Willoughby Washing</title>
+    <meta name="description" content="Learn about Willoughby Washing - a pressure washing business founded by a young entrepreneur committed to quality and precision."/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed": "#d1e4ff", "surface-tint": "#1a619d", "surface-bright": "#f3faff",
+                        "on-tertiary-container": "#ffb794", "tertiary-fixed": "#ffdbcb", "on-secondary-fixed": "#001f25",
+                        "surface-container-low": "#e6f6ff", "outline-variant": "#c1c7d1", "tertiary": "#692800",
+                        "tertiary-container": "#8e3900", "on-primary-fixed-variant": "#00497c", "tertiary-fixed-dim": "#ffb692",
+                        "on-primary": "#ffffff", "on-secondary-container": "#006573", "surface-container-highest": "#cfe6f2",
+                        "primary-container": "#005691", "secondary-fixed-dim": "#44d8f1", "on-error": "#ffffff",
+                        "primary": "#003e6b", "inverse-on-surface": "#dff4ff", "on-background": "#071e27",
+                        "background": "#f3faff", "surface-container-lowest": "#ffffff", "surface-container": "#dbf1fe",
+                        "on-surface-variant": "#414750", "error": "#ba1a1a", "on-primary-container": "#a0cbff",
+                        "surface": "#f3faff", "on-primary-fixed": "#001d36", "on-tertiary": "#ffffff",
+                        "surface-dim": "#c7dde9", "error-container": "#ffdad6", "surface-container-high": "#d5ecf8",
+                        "secondary-container": "#58e6ff", "on-secondary": "#ffffff", "secondary": "#006876",
+                        "inverse-primary": "#9ecaff", "inverse-surface": "#1e333c", "secondary-fixed": "#a1efff",
+                        "outline": "#727781", "on-secondary-fixed-variant": "#004e59", "on-tertiary-fixed-variant": "#7a3000",
+                        "on-tertiary-fixed": "#341100", "on-surface": "#071e27", "primary-fixed-dim": "#9ecaff",
+                        "on-error-container": "#93000a"
+                    },
+                    borderRadius: { DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "9999px" },
+                    fontFamily: { headline: ["Plus Jakarta Sans"], body: ["Work Sans"], label: ["Work Sans"] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .hydro-shadow { box-shadow: 0px 20px 40px rgba(7, 30, 39, 0.06); }
+        .glass-nav { backdrop-filter: blur(12px); }
+        .mobile-menu { display: none; }
+        .mobile-menu.active { display: flex; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body selection:bg-secondary-container selection:text-on-secondary-container">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-sky-50/80 glass-nav shadow-sm">
+    <div class="flex justify-between items-center px-6 md:px-8 py-4 max-w-7xl mx-auto">
+        <a href="index.html"><img alt="Willoughby Washing Logo" class="h-10 w-auto object-contain" src="images/logo.png"/></a>
+        <div class="hidden md:flex items-center gap-8">
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="index.html">Home</a>
+            <a class="text-sky-700 font-bold border-b-2 border-sky-700 pb-1 font-headline text-sm" href="about.html">About</a>
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="services.html">Services</a>
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="gallery.html">Gallery</a>
+            <a class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold text-sm hover:bg-primary-container hover:-translate-y-0.5 transition-all hydro-shadow" href="contact.html">Get an Estimate</a>
+        </div>
+        <button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('active')">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu flex-col bg-white/95 glass-nav px-6 pb-6 gap-4 md:hidden border-t border-outline-variant/15">
+        <a class="text-slate-600 font-headline text-sm py-2" href="index.html">Home</a>
+        <a class="text-sky-700 font-bold font-headline text-sm py-2" href="about.html">About</a>
+        <a class="text-slate-600 font-headline text-sm py-2" href="services.html">Services</a>
+        <a class="text-slate-600 font-headline text-sm py-2" href="gallery.html">Gallery</a>
+        <a class="bg-primary text-on-primary px-6 py-3 rounded-full font-bold text-sm text-center mt-2" href="contact.html">Get an Estimate</a>
+    </div>
+</nav>
+
+<main class="pt-24">
+    <!-- Hero Section -->
+    <section class="relative px-6 md:px-8 py-20 lg:py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="z-10">
+                <span class="inline-block px-4 py-1.5 rounded-full bg-secondary-container text-on-secondary-container text-xs font-bold uppercase tracking-widest mb-6">Young Entrepreneur</span>
+                <h1 class="text-5xl lg:text-7xl font-headline font-extrabold text-primary tracking-tighter leading-tight mb-8">
+                    The Story of <span class="text-secondary">Willoughby Washing:</span> Ambition & Precision
+                </h1>
+                <p class="text-lg lg:text-xl text-on-surface-variant max-w-xl leading-relaxed">
+                    Founded on ambition, discipline, and exceptional service, we bring a refreshing level of professionalism to every exterior cleaning project.
+                </p>
+            </div>
+            <div class="relative">
+                <div class="aspect-square rounded-xl overflow-hidden hydro-shadow transform rotate-3 scale-105 bg-surface-container">
+                    <img class="w-full h-full object-cover" src="images/job shots - 5.jpeg" alt="Willoughby Washing in action"/>
+                </div>
+                <div class="absolute -bottom-8 -left-8 aspect-video w-64 rounded-xl overflow-hidden hydro-shadow transform -rotate-6 border-4 border-surface-container-lowest hidden md:block">
+                    <img class="w-full h-full object-cover" src="images/job shots - 3.jpeg" alt="Pressure washing results"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Story Section -->
+    <section class="bg-surface-container-low py-24 px-6 md:px-8">
+        <div class="max-w-4xl mx-auto">
+            <div class="space-y-12">
+                <div class="flex flex-col md:flex-row gap-8 items-start">
+                    <div class="w-12 h-12 rounded-full bg-primary flex items-center justify-center shrink-0">
+                        <span class="material-symbols-outlined text-on-primary">history_edu</span>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-headline font-bold text-primary mb-6">A Vision Realized</h2>
+                        <p class="text-lg text-on-surface-variant leading-relaxed mb-6">
+                            Willoughby Washing isn't just a service; it's the result of a long-term vision. Started by a young entrepreneur who launched the business at 16, and now leading it at just barely 18, our journey is rooted in the relentless pursuit of excellence.
+                        </p>
+                        <p class="text-lg text-on-surface-variant leading-relaxed">
+                            Age is more than just a number here -- it's a reflection of drive, hard work, and the initiative to build something lasting. It represents a commitment to doing quality work the right way, every single time. While others were figuring out what to do, we were already out there making properties shine.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Values Bento Grid -->
+    <section class="py-24 px-6 md:px-8 max-w-7xl mx-auto">
+        <div class="grid md:grid-cols-3 gap-6">
+            <!-- Mission Card -->
+            <div class="md:col-span-2 bg-surface-container-lowest p-10 rounded-xl hydro-shadow flex flex-col justify-between">
+                <div>
+                    <span class="text-tertiary font-bold text-sm tracking-widest uppercase mb-4 block">Our Mission</span>
+                    <h3 class="text-4xl font-headline font-bold text-primary mb-6">Reliable, professional precision for your home.</h3>
+                    <p class="text-on-surface-variant text-lg leading-relaxed max-w-2xl">
+                        Our mission is simple: to provide reliable, professional pressure washing for driveways, patios, pool decks, and exteriors that restores the pride you feel in your property. We combine our proven 3-step process -- pre-treat, pressure wash, post-treat -- with a customer-first mindset and pool-safe chemicals.
+                    </p>
+                </div>
+                <div class="mt-12 flex items-center gap-4">
+                    <div class="h-px flex-grow bg-outline-variant opacity-30"></div>
+                    <span class="material-symbols-outlined text-secondary text-4xl" style="font-variation-settings: 'FILL' 1;">water_drop</span>
+                </div>
+            </div>
+            <!-- Values Card -->
+            <div class="bg-primary p-10 rounded-xl hydro-shadow text-on-primary flex flex-col">
+                <span class="text-primary-fixed font-bold text-sm tracking-widest uppercase mb-8 block">Our Values</span>
+                <ul class="space-y-8">
+                    <li class="flex gap-4">
+                        <span class="material-symbols-outlined text-secondary-fixed">verified</span>
+                        <div>
+                            <span class="block font-bold">Uncompromising Quality</span>
+                            <span class="text-sm opacity-80">Doing it right the first time.</span>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="material-symbols-outlined text-secondary-fixed">handshake</span>
+                        <div>
+                            <span class="block font-bold">Trust Built Daily</span>
+                            <span class="text-sm opacity-80">Reputation from the ground up.</span>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <span class="material-symbols-outlined text-secondary-fixed">psychology</span>
+                        <div>
+                            <span class="block font-bold">Ownership Mindset</span>
+                            <span class="text-sm opacity-80">Every customer matters.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Trust Section -->
+            <div class="md:col-span-3 bg-surface-container flex flex-col md:flex-row items-center rounded-xl overflow-hidden">
+                <div class="p-10 md:w-1/2">
+                    <h3 class="text-2xl font-headline font-bold text-primary mb-4">Building Trust, One Project at a Time</h3>
+                    <p class="text-on-surface-variant leading-relaxed">
+                        We operate with a mindset that every project is a brick in the foundation of our reputation. Whether it's a small walkway or a large pool deck, we approach it with the same discipline and precision that founded this company. Every surface gets our full 3-step treatment -- pre-treat, pressure wash, and post-treat with pool-safe chemicals.
+                    </p>
+                </div>
+                <div class="md:w-1/2 h-64 md:h-full min-h-[300px]">
+                    <img class="w-full h-full object-cover" src="images/job shots - 3.jpeg" alt="Clean driveway by Willoughby Washing"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Growth Timeline -->
+    <section class="py-24 px-6 md:px-8 bg-surface-container-low">
+        <div class="max-w-4xl mx-auto text-center mb-16">
+            <h2 class="text-3xl font-headline font-bold text-primary mb-4">Our Growth Trajectory</h2>
+            <p class="text-on-surface-variant">The relentless drive from starting at 16 to professional maturity at 18.</p>
+        </div>
+        <div class="max-w-3xl mx-auto space-y-12">
+            <div class="relative">
+                <div class="flex justify-between mb-4 font-headline font-bold text-xs uppercase tracking-tighter text-primary">
+                    <span>Foundation (Age 16)</span>
+                    <span>Expansion</span>
+                    <span>Full Scale (Age 18)</span>
+                </div>
+                <div class="h-3 w-full bg-primary-fixed rounded-full overflow-hidden">
+                    <div class="h-full bg-secondary w-full"></div>
+                </div>
+                <div class="flex justify-between mt-4">
+                    <div class="text-center w-1/3">
+                        <div class="w-4 h-4 rounded-full bg-secondary mx-auto mb-2"></div>
+                        <p class="text-xs font-bold">Ambition</p>
+                    </div>
+                    <div class="text-center w-1/3">
+                        <div class="w-4 h-4 rounded-full bg-secondary mx-auto mb-2"></div>
+                        <p class="text-xs font-bold">Discipline</p>
+                    </div>
+                    <div class="text-center w-1/3">
+                        <div class="w-4 h-4 rounded-full bg-tertiary mx-auto mb-2"></div>
+                        <p class="text-xs font-bold text-tertiary">Precision</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-24 px-6 md:px-8 text-center">
+        <div class="max-w-3xl mx-auto bg-primary-container/10 p-16 rounded-xl border border-outline-variant/10">
+            <h2 class="text-4xl lg:text-5xl font-headline font-extrabold text-primary mb-8 leading-tight">Experience the Difference.</h2>
+            <a href="contact.html" class="inline-block bg-primary text-on-primary px-10 py-4 rounded-full font-headline font-bold text-lg hover:bg-primary-container transition-all hover:scale-105 hydro-shadow">
+                Get an Estimate
+            </a>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-900 w-full pt-16 pb-8">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-6 md:px-8 max-w-7xl mx-auto">
+        <div class="flex flex-col gap-6">
+            <img alt="Willoughby Washing Logo" class="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" src="images/logo.png"/>
+            <p class="text-slate-400 font-body text-sm leading-relaxed">Premium pressure washing and surface restoration. Precision results, environmentally conscious processes.</p>
+        </div>
+        <div class="flex flex-col gap-4">
+            <span class="text-sky-400 font-headline font-bold text-xs tracking-[0.2em]">CONTACT</span>
+            <ul class="flex flex-col gap-2">
+                <li><a class="text-slate-400 hover:text-white transition-all text-sm" href="tel:530-663-3764">530-663-3764</a></li>
+                <li><a class="text-slate-400 hover:text-white transition-all text-sm" href="mailto:sheawilloughby@icloud.com">sheawilloughby@icloud.com</a></li>
+                <li class="text-slate-400 text-sm">2230 Mulberry Lane, Placerville, CA 95667</li>
+            </ul>
+        </div>
+        <div class="flex flex-col gap-4">
+            <span class="text-sky-400 font-headline font-bold text-xs tracking-[0.2em]">SERVICE AREA</span>
+            <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 rounded-full border border-slate-700 text-slate-400 text-xs">Pollock Pines</span>
+                <span class="px-3 py-1 rounded-full border border-slate-700 text-slate-400 text-xs">Camino</span>
+                <span class="px-3 py-1 rounded-full border border-slate-700 text-slate-400 text-xs">Placerville</span>
+                <span class="px-3 py-1 rounded-full border border-slate-700 text-slate-400 text-xs">El Dorado Hills</span>
+                <span class="px-3 py-1 rounded-full border border-slate-700 text-slate-400 text-xs">Folsom</span>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 md:px-8 mt-16 pt-8 border-t border-slate-800 text-center">
+        <p class="text-slate-600 text-xs uppercase tracking-widest font-bold">&copy; 2025 Willoughby Washing. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

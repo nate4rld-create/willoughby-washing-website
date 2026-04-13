@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Our Services | Willoughby Washing</title>
+    <meta name="description" content="Driveway restoration, patio cleaning, pool deck sanitization and more. Willoughby Washing uses pool-safe chemicals and a 3-step process."/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700;800&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-fixed": "#d1e4ff", "surface-tint": "#1a619d", "surface-bright": "#f3faff",
+                        "on-tertiary-container": "#ffb794", "tertiary-fixed": "#ffdbcb", "on-secondary-fixed": "#001f25",
+                        "surface-container-low": "#e6f6ff", "outline-variant": "#c1c7d1", "tertiary": "#692800",
+                        "tertiary-container": "#8e3900", "on-primary-fixed-variant": "#00497c", "tertiary-fixed-dim": "#ffb692",
+                        "on-primary": "#ffffff", "on-secondary-container": "#006573", "surface-container-highest": "#cfe6f2",
+                        "primary-container": "#005691", "secondary-fixed-dim": "#44d8f1", "on-error": "#ffffff",
+                        "primary": "#003e6b", "inverse-on-surface": "#dff4ff", "on-background": "#071e27",
+                        "background": "#f3faff", "surface-container-lowest": "#ffffff", "surface-container": "#dbf1fe",
+                        "on-surface-variant": "#414750", "error": "#ba1a1a", "on-primary-container": "#a0cbff",
+                        "surface": "#f3faff", "on-primary-fixed": "#001d36", "on-tertiary": "#ffffff",
+                        "surface-dim": "#c7dde9", "error-container": "#ffdad6", "surface-container-high": "#d5ecf8",
+                        "secondary-container": "#58e6ff", "on-secondary": "#ffffff", "secondary": "#006876",
+                        "inverse-primary": "#9ecaff", "inverse-surface": "#1e333c", "secondary-fixed": "#a1efff",
+                        "outline": "#727781", "on-secondary-fixed-variant": "#004e59", "on-tertiary-fixed-variant": "#7a3000",
+                        "on-tertiary-fixed": "#341100", "on-surface": "#071e27", "primary-fixed-dim": "#9ecaff",
+                        "on-error-container": "#93000a"
+                    },
+                    borderRadius: { DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "9999px" },
+                    fontFamily: { headline: ["Plus Jakarta Sans"], body: ["Work Sans"], label: ["Work Sans"] }
+                }
+            }
+        }
+    </script>
+    <style>
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .hydro-shadow { box-shadow: 0px 20px 40px rgba(7, 30, 39, 0.06); }
+        .glass-nav { backdrop-filter: blur(12px); }
+        .mobile-menu { display: none; }
+        .mobile-menu.active { display: flex; }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body">
+
+<!-- Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-sky-50/80 glass-nav shadow-sm">
+    <div class="flex justify-between items-center px-6 md:px-8 py-4 max-w-7xl mx-auto">
+        <a href="index.html"><img alt="Willoughby Washing Logo" class="h-10 w-auto object-contain" src="images/logo.png"/></a>
+        <div class="hidden md:flex items-center gap-8">
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="index.html">Home</a>
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="about.html">About</a>
+            <a class="text-sky-700 font-bold border-b-2 border-sky-700 pb-1 font-headline text-sm" href="services.html">Services</a>
+            <a class="text-slate-600 font-medium hover:text-sky-800 transition-colors font-headline text-sm" href="gallery.html">Gallery</a>
+            <a class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold text-sm hover:bg-primary-container hover:-translate-y-0.5 transition-all hydro-shadow" href="contact.html">Get an Estimate</a>
+        </div>
+        <button class="md:hidden text-primary" onclick="document.getElementById('mobile-menu').classList.toggle('active')">
+            <span class="material-symbols-outlined text-3xl">menu</span>
+        </button>
+    </div>
+    <div id="mobile-menu" class="mobile-menu flex-col bg-white/95 glass-nav px-6 pb-6 gap-4 md:hidden border-t border-outline-variant/15">
+        <a class="text-slate-600 font-headline text-sm py-2" href="index.html">Home</a>
+        <a class="text-slate-600 font-headline text-sm py-2" href="about.html">About</a>
+        <a class="text-sky-700 font-bold font-headline text-sm py-2" href="services.html">Services</a>
+        <a class="text-slate-600 font-headline text-sm py-2" href="gallery.html">Gallery</a>
+        <a class="bg-primary text-on-primary px-6 py-3 rounded-full font-bold text-sm text-center mt-2" href="contact.html">Get an Estimate</a>
+    </div>
+</nav>
+
+<main class="pt-32 pb-20">
+    <!-- Header -->
+    <section class="max-w-7xl mx-auto px-6 md:px-8 mb-20">
+        <div class="max-w-3xl">
+            <span class="text-on-tertiary-fixed-variant bg-tertiary-fixed px-4 py-1 rounded-full text-xs font-bold font-headline uppercase tracking-widest">Premium Care</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold font-headline tracking-tight mt-6 leading-[1.1]">
+                Restoring Clarity to Every <span class="text-primary">Surface.</span>
+            </h1>
+            <p class="text-xl text-on-surface-variant mt-6 leading-relaxed max-w-2xl font-body">
+                Willoughby Washing goes beyond standard pressure washing. We use our proven pre-treat, wash, and post-treat process with pool-safe chemicals to restore your property.
+            </p>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        <div class="lg:col-span-8 flex flex-col gap-12">
+            <!-- Driveway Service -->
+            <div class="bg-surface-container-lowest rounded-xl hydro-shadow overflow-hidden flex flex-col md:flex-row border border-outline-variant/15">
+                <div class="md:w-2/5 relative min-h-[300px]">
+                    <img class="absolute inset-0 w-full h-full object-cover" src="images/job shots - 5.jpeg" alt="Driveway pressure washing by Willoughby Washing"/>
+                </div>
+                <div class="p-8 md:w-3/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-headline text-primary">Driveway Restoration</h3>
+                        </div>
+                        <p class="text-on-surface-variant mb-6 leading-relaxed">Eliminate oil stains, tire marks, and deep-seated grime. Our 3-step process ensures a bright, uniform finish without the zebra stripes of amateur tools. We pre-treat, pressure wash, then post-treat for lasting results.</p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="bg-surface-container text-primary px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">check_circle</span> Pre-Treatment
+                            </span>
+                            <span class="bg-surface-container text-primary px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">check_circle</span> Surface Leveler
+                            </span>
+                            <span class="bg-surface-container text-primary px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">check_circle</span> Post-Treatment
+                            </span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="w-full bg-primary text-on-primary py-4 rounded-full font-bold hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+                        Book Driveway Wash <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Patio Service -->
+            <div class="bg-surface-container-lowest rounded-xl hydro-shadow overflow-hidden flex flex-col md:flex-row-reverse border border-outline-variant/15">
+                <div class="md:w-2/5 relative min-h-[300px]">
+                    <img class="absolute inset-0 w-full h-full object-cover" src="images/job shots - 3.jpeg" alt="Patio cleaning by Willoughby Washing"/>
+                </div>
+                <div class="p-8 md:w-3/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-headline text-primary">Patio & Stone Care</h3>
+                        </div>
+                        <p class="text-on-surface-variant mb-6 leading-relaxed">Delicate flagstone and pavers require a precision touch. We remove organic growth and efflorescence while protecting the joint sand and stone texture. Our pre-treatment breaks down buildup before we wash.</p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="bg-surface-container text-primary px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">eco</span> Bio-Safe Solutions
+                            </span>
+                            <span class="bg-surface-container text-primary px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">wash</span> Precision Method
+                            </span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="w-full bg-primary text-on-primary py-4 rounded-full font-bold hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+                        Request Patio Quote <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Pool Deck Service -->
+            <div class="bg-surface-container-lowest rounded-xl hydro-shadow overflow-hidden flex flex-col md:flex-row border border-outline-variant/15">
+                <div class="md:w-2/5 relative min-h-[300px] bg-gradient-to-br from-secondary/20 to-primary/10 flex items-center justify-center">
+                    <span class="material-symbols-outlined text-primary/20" style="font-size: 120px; font-variation-settings: 'FILL' 1;">pool</span>
+                </div>
+                <div class="p-8 md:w-3/5 flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-start mb-4">
+                            <h3 class="text-2xl font-bold font-headline text-primary">Pool Deck Sanitization</h3>
+                        </div>
+                        <p class="text-on-surface-variant mb-2 font-bold flex items-center gap-2">
+                            <span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">pool</span>
+                            Pool-Safe Chemical Guarantee
+                        </p>
+                        <p class="text-on-surface-variant mb-6 leading-relaxed">We use specialized detergents that are harmless to your pool's chemistry balance. Our pre-soak prevents runoff contamination, and our post-treatment inhibits regrowth -- ensuring a safe swim environment.</p>
+                        <div class="flex flex-wrap gap-2 mb-8">
+                            <span class="bg-secondary-container text-on-secondary-fixed-variant px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">science</span> pH Balanced
+                            </span>
+                            <span class="bg-secondary-container text-on-secondary-fixed-variant px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">verified</span> Non-Toxic
+                            </span>
+                            <span class="bg-secondary-container text-on-secondary-fixed-variant px-3 py-1 rounded-full text-xs font-semibold flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">shield</span> Pool Safe
+                            </span>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="w-full bg-primary text-on-primary py-4 rounded-full font-bold hover:bg-primary-container transition-all flex items-center justify-center gap-2">
+                        Book Pool Deck Service <span class="material-symbols-outlined">arrow_forward</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sidebar -->
+        <aside class="lg:col-span-4 sticky top-32 space-y-8">
+            <div class="bg-surface-container p-8 rounded-xl border border-outline-variant/15">
+                <h4 class="text-xl font-bold font-headline mb-6 text-on-background">Our Precision Process</h4>
+                <div class="space-y-8 relative before:absolute before:left-[11px] before:top-2 before:bottom-2 before:w-[2px] before:bg-secondary-container">
+                    <div class="relative pl-10">
+                        <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-secondary border-4 border-surface-container z-10"></div>
+                        <h5 class="font-bold text-sm text-on-background font-headline">Pre-Treatment</h5>
+                        <p class="text-sm text-on-surface-variant mt-1">Application of surfactants to loosen organic bonds and emulsify oils.</p>
+                    </div>
+                    <div class="relative pl-10">
+                        <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-tertiary border-4 border-surface-container z-10"></div>
+                        <h5 class="font-bold text-sm text-on-background font-headline">Pressure Wash</h5>
+                        <p class="text-sm text-on-surface-variant mt-1">Calibrated pressure wash tailored to the specific substrate material.</p>
+                    </div>
+                    <div class="relative pl-10">
+                        <div class="absolute left-0 top-1 w-6 h-6 rounded-full bg-secondary-fixed-dim border-4 border-surface-container z-10"></div>
+                        <h5 class="font-bold text-sm text-on-background font-headline">Post-Treatment</h5>
+                        <p class="text-sm text-on-surface-variant mt-1">Neutralizing rinse and mold-inhibitor to prolong the clean look.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-primary text-on-primary p-8 rounded-xl hydro-shadow">
+                <h4 class="text-xl font-bold font-headline mb-4">Need a Custom Quote?</h4>
+                <p class="text-on-primary/80 mb-6 text-sm">Large properties or unique surfaces? We'll give you a detailed walkthrough.</p>
+                <a class="inline-flex items-center gap-2 font-black text-2xl font-headline tracking-tighter" href="tel:530-663-3764">
+                    <span class="material-symbols-outlined">call</span>
+                    530-663-3764
+                </a>
+            </div>
+        </aside>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="bg-slate-900 w-full pt-16 pb-8 mt-20">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12 px-6 md:px-8 max-w-7xl mx-auto">
+        <div class="space-y-6">
+            <img alt="Willoughby Washing Logo" class="h-12 w-auto object-contain drop-shadow-[0_0_8px_rgba(255,255,255,0.3)]" src="images/logo.png"/>
+            <p class="text-slate-400 font-body text-sm leading-relaxed">Premium pressure washing for those who value detail. Serving the Sierra Foothills with professional-grade clarity and care.</p>
+        </div>
+        <div class="space-y-4">
+            <span class="text-sky-400 font-headline font-bold text-xs tracking-[0.2em]">CONNECT</span>
+            <ul class="space-y-3">
+                <li><a class="text-slate-400 hover:text-white transition-all" href="tel:530-663-3764">530-663-3764</a></li>
+                <li><a class="text-slate-400 hover:text-white transition-all" href="mailto:sheawilloughby@icloud.com">sheawilloughby@icloud.com</a></li>
+                <li class="text-slate-400">2230 Mulberry Lane, Placerville, CA 95667</li>
+            </ul>
+        </div>
+        <div class="space-y-4">
+            <span class="text-sky-400 font-headline font-bold text-xs tracking-[0.2em]">NAVIGATION</span>
+            <ul class="space-y-3">
+                <li><a class="text-slate-400 hover:text-white transition-all" href="index.html">Home</a></li>
+                <li><a class="text-slate-400 hover:text-white transition-all" href="gallery.html">Gallery</a></li>
+                <li><a class="text-slate-400 hover:text-white transition-all" href="contact.html">Request Estimate</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="max-w-7xl mx-auto px-6 md:px-8 mt-16 pt-8 border-t border-slate-800">
+        <p class="text-slate-500 text-xs text-center">&copy; 2025 Willoughby Washing. All rights reserved. Serving Pollock Pines to Folsom.</p>
+    </div>
+</footer>
+
+</body>
+</html>
